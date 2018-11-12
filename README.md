@@ -30,3 +30,11 @@ rotate text inside table
 ```
 
 Do gradient color based on a parameter, e.g ```\ApplyGradient{17.80}```
+
+## Image 
+```
+\setlength{\fboxsep}{0pt}
+\setlength{\fboxrule}{2pt}
+\fcolorbox{green}{white}{ <your image here> }
+```
+Add color border to image
