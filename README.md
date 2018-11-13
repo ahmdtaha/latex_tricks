@@ -9,6 +9,8 @@ Some useful latex tricks when writing papers
 ```
 
 ## Latex Tables Tricks
+[Table generate](https://www.tablesgenerator.com/)
+
 ```\cellcolor{yellow} ``` color a table cell
 
 ```\cellcolor{yellow!50}``` color with alpha
