@@ -11,7 +11,13 @@ Some useful latex tricks when writing academic papers
 ## Latex Tables Tricks
 [Latex Table generate](https://www.tablesgenerator.com/)
 
-```\cellcolor{yellow} ``` color a table cell
+
+```
+\usepackage{xcolor,colortbl}
+\cellcolor{yellow} 
+``` 
+
+color a table cell
 
 ```\cellcolor{yellow!50}``` color a table cell with alpha
 
