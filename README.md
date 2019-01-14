@@ -1,14 +1,9 @@
 # Latex Tricks
 Some useful latex tricks when writing academic papers
 
-### Compressing long equations
-```
-\begin{equation}
-\scalebox{0.95}[1]{$ put your equation here $}
-\end{equation}
-```
 
-## Latex Tables Tricks
+
+## 1. Latex Tables Tricks
 [Latex Table generate](https://www.tablesgenerator.com/)
 
 
@@ -26,6 +21,8 @@ color a table cell
 \rot{ rotated text}
 ``` 
 rotate text inside table
+
+```\setlength\tabcolsep{2.5pt} % default value: 6pt``` shrink table columns spacing
 
 
 ### Row Cells Gradient Coloring
@@ -65,16 +62,25 @@ Do gradient color based on a parameter, e.g ```\ApplyGradient{17.80}```
 
 
 
-## Image 
+## 2.Images 
 ```
 \setlength{\fboxsep}{0pt}
 \setlength{\fboxrule}{2pt}
 \fcolorbox{green}{white}{ <your image here> }
 ```
-Add color border to image
+Add color border/outline to image
 
 
-## Supplementary Material
+## 3.Equations
+```
+\begin{equation}
+\scalebox{0.95}[1]{$ put your equation here $}
+\end{equation}
+```
+Compress long equations
+
+
+## 4.Supplementary Material
 ```
 \newcommand{\beginsupplement}{%
 	\setcounter{table}{0}
