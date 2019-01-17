@@ -92,3 +92,6 @@ Compress long equations
 \beginsupplement
 ``` 
 Change tables and figures captions in supplementary material
+
+## 5. Misc
+[Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
