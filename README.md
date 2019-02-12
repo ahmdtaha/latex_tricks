@@ -95,3 +95,5 @@ Change tables and figures captions in supplementary material
 
 ## 5. Misc
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
+
+[Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
