@@ -97,3 +97,5 @@ Change tables and figures captions in supplementary material
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
+
+[Pgfplots gallery](http://pgfplots.sourceforge.net/gallery.html)
