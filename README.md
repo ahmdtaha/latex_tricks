@@ -26,6 +26,7 @@ rotate text inside table
 
 
 ### Row Cells Gradient Coloring
+Do gradient color based on a parameter, e.g ```\ApplyGradient{17.80}```
 
 ```
 \newcommand*{\MinNumber}{0.0}%
@@ -37,11 +38,8 @@ rotate text inside table
 	\edef\x{\noexpand\cellcolor{blue!\PercentColor}}\x\textcolor{white}{#1}}
 ```
 
-Do gradient color based on a parameter, e.g ```\ApplyGradient{17.80}```
 
-
-
-### Bold an entire table row
+Bold an entire table row
 
 ```
 \usepackage{array}
@@ -63,24 +61,37 @@ Do gradient color based on a parameter, e.g ```\ApplyGradient{17.80}```
 
 
 ## 2.Images 
+Add color border/outline to image
+
 ```
 \setlength{\fboxsep}{0pt}
 \setlength{\fboxrule}{2pt}
 \fcolorbox{green}{white}{ <your image here> }
 ```
-Add color border/outline to image
+
 
 
 ## 3.Equations
+Compress long equations
+
 ```
 \begin{equation}
 \scalebox{0.95}[1]{$ put your equation here $}
 \end{equation}
 ```
-Compress long equations
 
 
-## 4.Supplementary Material
+## 4. Math
+Round numbers
+
+```
+\newcommand{\round}[1]{\num[round-mode=places,round-precision=2]{\fpeval{#1*100}}}
+\newcommand{\Round}[1]{\num[round-mode=places,round-precision=3]{#1}}
+```
+
+## 5.Supplementary Material
+Change tables and figures captions in supplementary material
+
 ```
 \newcommand{\beginsupplement}{%
 	\setcounter{table}{0}
@@ -91,11 +102,13 @@ Compress long equations
 
 \beginsupplement
 ``` 
-Change tables and figures captions in supplementary material
 
-## 5. Misc
+
+## 6. Misc
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
 
 [Pgfplots gallery](http://pgfplots.sourceforge.net/gallery.html)
+
+[Online Latex Compiler] (https://www.latex4technics.com/)
