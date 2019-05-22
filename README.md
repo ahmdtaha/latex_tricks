@@ -5,7 +5,7 @@ Some useful latex tricks when writing academic papers
 
 ## 1. Latex Tables Tricks
 [Latex Table generate](https://www.tablesgenerator.com/)
-
+Follow [this guideline](./guide-tables.pdf)
 
 ```
 \usepackage{xcolor,colortbl}
