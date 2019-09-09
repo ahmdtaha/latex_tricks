@@ -82,12 +82,16 @@ Compress long equations
 
 
 ## 4. Math
-Round numbers
+Round numbers & mathematical mainpulation
 
 ```
+\usepackage{xfp}
+\usepackage{etoolbox,siunitx}
+
 \newcommand{\round}[1]{\num[round-mode=places,round-precision=2]{\fpeval{#1*100}}}
 \newcommand{\Round}[1]{\num[round-mode=places,round-precision=3]{#1}}
 ```
+
 
 ## 5.Supplementary Material
 Change tables and figures captions in supplementary material
