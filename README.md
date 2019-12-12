@@ -57,9 +57,18 @@ Bold an entire table row
 \end{tabular}
 
 ```
+Hide tables during draft
 
+```
+\excludecomment{table}
+\let\endtable\relax
+```
+or 
 
-
+```
+\usepackage{environ}
+\RenewEnviron{table}{}
+```
 ## 2.Images 
 Add color border/outline to image
 
@@ -69,7 +78,19 @@ Add color border/outline to image
 \fcolorbox{green}{white}{ <your image here> }
 ```
 
+Hide figures during draft
 
+```
+\excludecomment{figure}
+\let\endfigure\relax
+```
+or
+
+```
+\usepackage{environ}
+\RenewEnviron{figure*}{}
+\RenewEnviron{figure}{}
+```
 
 ## 3.Equations
 Compress long equations
@@ -93,6 +114,7 @@ Round numbers & mathematical mainpulation
 ```
 
 
+
 ## 5.Supplementary Material
 Change tables and figures captions in supplementary material
 
@@ -107,8 +129,21 @@ Change tables and figures captions in supplementary material
 \beginsupplement
 ``` 
 
+## 6.Drafting & Editing
+Highlight a sentence
 
-## 6. Misc
+`
+\usepackage{soul}
+\hl{text}
+`
+
+## 7.Arxiv submission
+* Add `\pdfoutput=1` to the main within the first 5 lines.
+* Delete `missfont.log` from your submission
+
+
+
+## 7. Misc
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
@@ -116,3 +151,5 @@ Change tables and figures captions in supplementary material
 [Pgfplots gallery](http://pgfplots.sourceforge.net/gallery.html)
 
 [Online Latex Compiler] (https://www.latex4technics.com/)
+
+Resolve CVPR infected [`eso-pic.sty`](https://github.com/ahmdtaha/latex_tricks/blob/master/eso-pic.sty) file
