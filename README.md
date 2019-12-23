@@ -144,6 +144,13 @@ Highlight a sentence
 
 
 ## 7. Misc
+
+``` 
+\newcommand{\etal}{\textit{et al}.}
+\newcommand{\ie}{\textit{i}.\textit{e}.}
+\newcommand{\eg}{\textit{e}.\textit{g}.}
+``` 
+
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
