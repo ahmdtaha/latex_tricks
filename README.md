@@ -7,22 +7,32 @@ Some useful latex tricks when writing academic papers
 [Latex Table generate](https://www.tablesgenerator.com/)
 Follow [this guideline](./guide-tables.pdf)
 
+
+### Color a table cell
 ```
 \usepackage{xcolor,colortbl}
 \cellcolor{yellow} 
 ``` 
 
-color a table cell
+### Color a table cell with alpha
 
-```\cellcolor{yellow!50}``` color a table cell with alpha
+```\cellcolor{yellow!50}```
 
+
+### Rotate text inside table
 ```
 \newcommand*\rot{\rotatebox{90}}
 \rot{ rotated text}
 ``` 
-rotate text inside table
 
-```\setlength\tabcolsep{2.5pt} % default value: 6pt``` shrink table columns spacing
+
+
+### columns spacing 
+```\setlength{\tabcolsep}{2pt}```
+
+### Rows spacing
+```\renewcommand{\arraystretch}{1.2}``` 
+
 
 
 ### Row Cells Gradient Coloring
@@ -151,6 +161,11 @@ Highlight a sentence
 \newcommand{\eg}{\textit{e}.\textit{g}.}
 ``` 
 
+Define string command 
+``` 
+\newcommand{\stage}{proposal}
+``` 
+
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
@@ -160,3 +175,7 @@ Highlight a sentence
 [Online Latex Compiler] (https://www.latex4technics.com/)
 
 Resolve CVPR infected [`eso-pic.sty`](https://github.com/ahmdtaha/latex_tricks/blob/master/eso-pic.sty) file
+
+
+## 8. Resources
+[Latex best practice](https://www.semipol.de/2018/06/12/latex-best-practices.html)
