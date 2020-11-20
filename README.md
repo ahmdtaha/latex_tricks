@@ -147,19 +147,26 @@ Highlight a sentence
 \hl{text}
 `
 
-## 7.Arxiv submission
+## 7.Algorithm2e
+
+Set the algorithm counter `\setcounter{algocf}{1}`
+
+## 8.Arxiv submission
 * Add `\pdfoutput=1` to the main within the first 5 lines.
 * Delete `missfont.log` from your submission
 
 
 
-## 7. Misc
+## 9. Misc
 
 ``` 
 \newcommand{\etal}{\textit{et al}.}
 \newcommand{\ie}{\textit{i}.\textit{e}.}
 \newcommand{\eg}{\textit{e}.\textit{g}.}
 ``` 
+
+Or even better, use ```  \usepackage[abbreviations]{foreign} ``` which defines `\etal`, `\ie`, and `\eg`.
+
 
 Define string command 
 ``` 
@@ -177,5 +184,5 @@ Define string command
 Resolve CVPR infected [`eso-pic.sty`](https://github.com/ahmdtaha/latex_tricks/blob/master/eso-pic.sty) file
 
 
-## 8. Resources
+## 10. Resources
 [Latex best practice](https://www.semipol.de/2018/06/12/latex-best-practices.html)
