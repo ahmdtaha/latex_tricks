@@ -139,6 +139,14 @@ Change tables and figures captions in supplementary material
 \beginsupplement
 ``` 
 
+Add prefix to references
+
+```
+\usepackage[numbers]{natbib}
+\renewcommand{\citenumfont}[1]{A#1}
+\renewcommand{\bibnumfmt}[1]{[A#1]}
+```
+
 ## 6.Drafting & Editing
 Highlight a sentence
 
