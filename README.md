@@ -181,6 +181,8 @@ Define string command
 \newcommand{\stage}{proposal}
 ``` 
 
+[![Mathematical Notations](./imgs/math_notation.jpg)](https://www.researchgate.net/publication/51243218_Simplivariate_Models_Uncovering_the_Underlying_Biology_in_Functional_Genomics_Data/figures?lo=1)
+
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
