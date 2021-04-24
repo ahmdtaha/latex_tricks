@@ -181,6 +181,26 @@ Define string command
 \newcommand{\stage}{proposal}
 ``` 
 
+Set Page footer (e.g., 1 of 2)
+
+```
+\usepackage{fancyhdr,lastpage,lipsum}
+\usepackage{hyperref}
+\pagestyle{fancy}% The default page style
+\fancyhf{}% Clear header/footer
+%\lhead[\sffamily Curriculum Vitae]{\sffamily Curriculum Vitae}
+%\rhead[\sffamily Name]{\sffamily Name}
+\cfoot{\thepage\ of \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0pt}% No header rule
+
+\fancypagestyle{firstpage}{
+	\fancyhf{}% Clear header/footer
+	\cfoot{\thepage\ of \pageref*{LastPage}}
+	\renewcommand{\headrulewidth}{0pt}% No header rule
+}
+```
+**Also add the following** `\thispagestyle{firstpage}` inside the document
+
 [![Mathematical Notations](./imgs/math_notation.jpg)](https://www.researchgate.net/publication/51243218_Simplivariate_Models_Uncovering_the_Underlying_Biology_in_Functional_Genomics_Data/figures?lo=1)
 
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
