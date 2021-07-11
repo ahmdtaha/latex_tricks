@@ -1,5 +1,5 @@
 # Latex Tricks
-Some useful latex tricks when writing academic papers
+Useful latex tricks when writing academic papers
 
 
 
