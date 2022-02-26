@@ -203,6 +203,9 @@ Set Page footer (e.g., 1 of 2)
 
 [![Mathematical Notations](./imgs/math_notation.jpg)](https://www.researchgate.net/publication/51243218_Simplivariate_Models_Uncovering_the_Underlying_Biology_in_Functional_Genomics_Data/figures?lo=1)
 
+
+[Latex Mathematical Symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf) 
+
 [Mathematical symbols by drawing](http://detexify.kirelabs.org/classify.html) 
 
 [Quotation Marks and Dashes](https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html)
